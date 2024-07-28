@@ -12,6 +12,7 @@ It comprises of 3649 entries, 21 features in total. Th
 <br>
 <br>
 <br>
+
 ## Goal of Analysis
 The analysis aims to answer to the below questions.
 
@@ -20,6 +21,7 @@ The analysis aims to answer to the below questions.
 <br>
 <br>
 <br>
+
 ## Challenge of Dataset
 1. A substantial amount of missing data, with some features over 50% missing values
 2. The dataset includes 21 features, making feature selection complex
@@ -27,6 +29,7 @@ The analysis aims to answer to the below questions.
 <br>
 <br>
 <br>
+
 ## Structure of Script
 **Section 1:Missing Data** aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.
 **Section 2:Univariate Time-Series** tests different time-series regression models against carbon emission (ARIMA/AR)
