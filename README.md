@@ -15,7 +15,7 @@ It comprises of 3649 entries, 21 features in total. Th
 
 ## Goal of Analysis
 The analysis aims to answer to the below questions.
-
+<br>
 >1. Can we build a model that forecasts future CO2 emissions?
 >2. Can we improve the model by incorporating features other than time-series data of CO2? How can we identify the important features?
 <br>
