@@ -36,7 +36,7 @@ This analysis aims to address the above mentioned challenges by utilising differ
 <br>
 
 ## Structure of Script
-**Section 1:Missing Data** aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.<br>
-**Section 2:Univariate Time-Series** tests different time-series regression models against carbon emission (ARIMA/AR)<br>
-**Section 3:ML with RFE** visualises feature importance selected by ElasticNet and RandomForest, which are finalised with Recursive Feature Elimination(RFE).
+**Section 1: Missing Data** aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.<br>
+**Section 2: Univariate Time-Series** tests different time-series regression models against carbon emission (ARIMA/AR)<br>
+**Section 3: ML with RFE** visualises feature importance selected by ElasticNet and RandomForest, which are finalised with Recursive Feature Elimination(RFE).
 Conclusion provides the evaluation of selected time-series models and ML models with RFE, and the limitations of this anlaysis<br>
