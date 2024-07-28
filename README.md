@@ -23,15 +23,21 @@ The analysis aims to answer to the below questions.
 <br>
 
 ## Challenge of Dataset
+The dataset has below listed challenges.
 1. A substantial amount of missing data, with some features over 50% missing values
-2. The dataset includes 21 features, making feature selection complex
-3. Time-series Analysis with feature, 'Year'
+2. Time-series Analysis with feature, 'Year'
+3. The dataset includes 21 features, making feature selection complex
+<br><br>
+This analysis aims to address the above mentioned challenges by utilising different approaches.
+1. Here, we aim to retain as many features as possible. In summary, 3 features are dropped, 655 entries are excluded after investigating the correlation and visualised missing values by entity by year.
+2. Employing Auto-ARIMA and AR, only the best models are selected based on R2-score.
+3. This study utilises Recursive Feature Elminiation(RFE) in feature selection for country/region, and compare the model performance.
 <br>
 <br>
 <br>
 
 ## Structure of Script
-**Section 1:Missing Data** aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.
-**Section 2:Univariate Time-Series** tests different time-series regression models against carbon emission (ARIMA/AR)
+**Section 1:Missing Data** aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.<br>
+**Section 2:Univariate Time-Series** tests different time-series regression models against carbon emission (ARIMA/AR)<br>
 **Section 3:ML with RFE** visualises feature importance selected by ElasticNet and RandomForest, which are finalised with Recursive Feature Elimination(RFE).
-Conclusion provides the evaluation of selected time-series models and ML models with RFE, and the limitations of this anlaysis
+Conclusion provides the evaluation of selected time-series models and ML models with RFE, and the limitations of this anlaysis<br>
