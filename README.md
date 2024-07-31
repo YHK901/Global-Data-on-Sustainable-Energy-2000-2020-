@@ -4,7 +4,7 @@ Comparing univariate time-series analysis and ML models in CO2 emission predicti
 
 ---
 
-### Dataset Description
+## Dataset Description
 **Global Data on Sustainable Energy (2000-2020)** <br>
 Source: downloaded from Kaggle (https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy)
 
@@ -12,18 +12,21 @@ This dataset contains data related to sustainable energy indicators and other us
 It comprises of 3649 entries, 21 features in total. Th
 <br><br>
 
----
 
-### Goal of Analysis
+
+## Goal of Analysis
 The analysis aims to answer to the below questions.
 <br>
->1. Can we build a model that forecasts future CO2 emissions?
->2. Can we improve the model by incorporating features other than time-series data of CO2? How can we identify the important features?
+
+```
+1. Can we build a model that forecasts future CO2 emissions?
+2. Can we improve the model by incorporating features other than time-series data of CO2? How can we identify the important features?
+```
+
 <br><br>
 
----
 
-### Challenge of Dataset
+## Challenge of Dataset
 The dataset has below listed challenges.
 1. A substantial amount of missing data, with some features over 50% missing values
 2. Time-series Analysis with feature, 'Year'
@@ -37,8 +40,7 @@ This analysis aims to address the above mentioned challenges by utilising differ
 <br>
 <br>
 
----
-
+## Summary of Analysis
 ### Section 1: Missing Data
 This section aims to retain as many features as possible. By visualising missing data in an interactive heatmap, the progress of missing data handling can be monitored by updating the graph after each treatment.<br><br>
 
